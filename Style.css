@@ -1,0 +1,138 @@
+/*Para el estilo del encabezado o header, se aplicó un diseño sencillo y centrado. Además, se estableció 
+el fondo de color blanco, tamaño de fuente base y bordes redondeados para mejorar la presentación visual.*/
+header {
+    background-color: #ffffff;
+    text-align: center;
+    color: #11676a;
+    font-size: 16px;
+    padding: 0px;
+    border-radius: 7px
+}
+
+/*Para el cuerpo del HTML se estableció de igual forma un fondo blanco y una tipografía sans-serif para
+garantizar buena legibilidad.*/
+body {
+    background-color: #ffffff;
+    font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*Para el pie de página o footer, se aplicó un color de fondo azulverdoso vivo, haciendo contraste con 
+el texto en color blanco, bordes redondeados y espaciado interno para separar visualmente e6f4f4 f2f2f2
+ el contenido del resto de la página.*/
+footer {
+    background-color: #ebebeb;
+    color:#000000;
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: left;
+}
+
+/*Se aplicó alineación centrada y color negro a los párrafos de clase "center", esta clase se utiliza 
+principalmente para mostrar la información descriptiva de cada médico como su nombre, especialidad y 
+horario laboral.*/
+p.center {
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+}
+
+/*Se aplicó alineación a la izquierda y un tamaño de letra pequeño para los párrafos correspondientes a la
+información de contacto que se encuentra en el pie de página*/
+p.small-text {
+    text-align: left;
+    font-size: 13px;
+}
+
+/*Hacemos uso de un selector de agrupación para etiquetas h2 y h3, asignando un diseño uniforme con un color azul
+verdoso vivo y alineación centrada del texto. */
+h2, h3{
+    color: #11676a;
+    text-align: center;
+}
+
+/*Hacemos uso de un selector de clase utilizada para las imágenes de perfil de cada uno de los médicos. 
+Se centra la imagen, se establecen dimensiones uniformes y se agrega un margen inferior para separar del botón.*/
+.perfil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; 
+    height: 100px;
+    margin-bottom: 15px; 
+}
+
+/*Hacemos uso de un selector de clase que implementa un contenedor con grilla para organizar el logo y el 
+título dentro del header, se realiza su distribución en dos columnas con separación de 10% y 90% respectivamente. */
+.grid-header-containter {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    gap: 5px;
+    padding: 10px;
+}
+
+/*Hacemos uso de un selector de clase para organizar las tarjetas de los médicos en tres columnas de igual tamaño, 
+manteniendo un espaciado uniforme entre ellas a través del padding*/
+.grid-medicos-containter {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 5px;
+    padding: 10px;
+}
+
+/*Utilizamos un selector de clase para aplicar un estilos personalizado a los botones de solicitud de cita.
+Cada botón tiene el mismo color de fondo verde, tipografía y bordes redondeados.*/
+.mi-boton {
+    background-color: #60ac3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+/*Hacemos uso de una clase general para cada tarjeta de médico, se agregaron bordes redondeados, espaciado interno
+y alineación centrada del contenido.*/
+.medico {
+    border-radius: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Se realizó la asignación de colores de fondo individuales mediante selectores por id para diferenciar visualmente 
+cada tarjeta del profesional correspondiente. */
+#medico1 {
+    background-color: #c0ffb0;
+}
+
+#medico2 {
+    background-color: #97e9fe;
+}
+
+#medico3 {
+    background-color: #fbdd9c;
+}
+
+#medico4 {
+    background-color: #fdabdd;
+}
+
+#medico5 {
+    background-color: #fbffab;
+}
+
+#medico6 {
+    background-color: #a7b2fa;
+}
+
+/*Se asignaron las dimensiones y alineación del logo de la Clínica Piedra Azul dentro del encabezado, respetando proporciones uniformes.*/
+#logo {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px; 
+    height: 80px;
+}

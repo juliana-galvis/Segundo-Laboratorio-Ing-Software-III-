@@ -28,7 +28,7 @@ footer {
     text-align: left;
 }
 
-/*Se aplicó alineación centrada y color negro a los párrafos de clase "center", esta clase se utiliza 
+/*Aplicamos alineación centrada y color negro a los párrafos de clase "center", esta clase se utiliza 
 principalmente para mostrar la información descriptiva de cada médico como su nombre, especialidad y 
 horario laboral.*/
 p.center {
@@ -37,7 +37,7 @@ p.center {
     font-size: 16px;
 }
 
-/*Se aplicó alineación a la izquierda y un tamaño de letra pequeño para los párrafos correspondientes a la
+/*Aplicamos alineación a la izquierda y un tamaño de letra pequeño para los párrafos correspondientes a la
 información de contacto que se encuentra en el pie de página*/
 p.small-text {
     text-align: left;
@@ -76,7 +76,7 @@ manteniendo un espaciado uniforme entre ellas a través del padding*/
 .grid-medicos-containter {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    gap: 5px;
+    gap: 10px;
     padding: 10px;
 }
 
@@ -101,7 +101,7 @@ y alineación centrada del contenido.*/
     text-align: center;
 }
 
-/*Se realizó la asignación de colores de fondo individuales mediante selectores por id para diferenciar visualmente 
+/*Realizamos la asignación de colores de fondo individuales mediante selectores por id para diferenciar visualmente 
 cada tarjeta del profesional correspondiente. */
 #medico1 {
     background-color: #c0ffb0;
@@ -127,7 +127,7 @@ cada tarjeta del profesional correspondiente. */
     background-color: #a7b2fa;
 }
 
-/*Se asignaron las dimensiones y alineación del logo de la Clínica Piedra Azul dentro del encabezado, respetando proporciones uniformes.*/
+/*Realizamos la asignaciòn de las dimensiones y alineación del logo de la Clínica Piedra Azul dentro del encabezado, respetando proporciones uniformes.*/
 #logo {
     display: block;
     margin-top: 20px;
